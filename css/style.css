@@ -1,0 +1,141 @@
+ /* HEAD */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.menu-bar{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+}
+.menu-right > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-right > ul > li{
+    list-style: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.menu-right > ul > li:hover{
+    background-color: purple;
+}
+.menu-right > ul > li:hover a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active a{
+    color: white;
+}
+.active{
+    cursor: pointer;
+    background-color: purple;
+}
+/* body */
+.container{
+    margin-top: 4%;
+    display: flex;
+    padding: 2%;
+}
+.text{
+    width: 75%;
+    margin-top: -5%;
+    
+    width: 73%;
+    margin-left: 30px;
+}
+.text p{
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+}
+.text h1{
+    font-size: 1.5rem;
+
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    background: rgb(201, 6, 201);
+    border: none;
+    padding: 10px 90px;
+    border-radius: 5px;
+
+    
+}
+.btn button:hover{
+    background: rgb(63, 127, 201);
+}
+
+.img{
+    width: 26%;
+    width: 23%;
+    
+}
+.img img{
+    width: 85%;
+    border-radius: 15px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+/* footer */
+.grid h3{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    color: #ccc;
+}
+.card{
+    width: 90%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.card-box{
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-box img{
+    width: 50%;
+    padding: 50px;
+}
+footer{
+    background: #ccc;
+}
+.contact{
+    padding: 30px;
+}
+footer li{
+    padding: 10px;
+    text-align: center  ;
+    color: #fff;
+    list-style: none;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;   
+    
+}
